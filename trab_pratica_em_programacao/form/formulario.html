@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_form.css">
+    <title>Original Bike</title>
+</head>
+<body>
+    <form action="validar_form.php" method="post">
+        
+        <h2>Selecione o tipo de envio</h2>
+        <label for="retirar"> <input type="radio" id="retirar" name="frete" value="retirar"> Retirar na loja </label>
+
+        <label for="padrao"> <input type="radio" name="frete" id="padrao" value="padrao"> Envio padrão </label>
+
+        <label for="pac"> <input type="radio" name="frete" id="pac" value="pac"> Envio PAC </label>
+        
+        <label for="express"> <input type="radio" name="frete" id="express" value="express"> Envio Expresso </label>
+        <br>
+        <br>
+
+
+        <h2>Selecione a cor que deseja</h2>
+        <label for="rosa">
+            <input type="checkbox" name="check[cor1]" value="rosa" id="rosa"> rosa
+        </label>
+
+        <label for="preto">
+            <input type="checkbox" name="check[cor2]" value="preto" id="preto"> preto
+        </label>
+
+        <label for="vermelho">
+            <input type="checkbox" name="check[cor3]" value="vermelho" id="vermelho"> vermelho
+        </label>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
