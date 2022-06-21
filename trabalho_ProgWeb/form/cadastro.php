@@ -3,7 +3,7 @@
 include ("conexao.php");
 
 $nome = $_REQUEST['name'];
-$nascimento = $_REQUEST['date'];
+$nascimento = $_REQUEST['nasc'];
 $email = $_REQUEST['email'];
 $senha = $_REQUEST['password'];
 
