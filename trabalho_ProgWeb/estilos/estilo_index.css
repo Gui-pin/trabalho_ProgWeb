@@ -109,6 +109,8 @@ h2 {
     margin-left: 80px;
     font-size: 19px;
     color: #a3a3a3;
+    display: block;
+    margin-top: 10px;
 }
 
 .produto {
@@ -152,4 +154,63 @@ footer {
     text-align: center;
     font-size: 23px;
     color: #fff;
+}
+
+.more {
+    display: none;
+}
+
+.icons {
+    max-width: 3rem;
+}
+
+@media (min-width: 480px) {
+    .produto {
+        font-size: 2rem;
+    }
+    .info {
+        
+        line-height: 1.2rem;
+    }
+    .mais {
+        display: none;
+    }
+    .more {
+        display: block;
+    }
+    .preco {
+        font-size: 1.3rem;
+    }
+    .comprar {
+        font-size: 1.3rem;
+    }
+    .icons {
+        max-width: 4rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .info {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+    .icons {
+        max-width: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .info {
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+    }
+    .icons {
+        max-width: 7rem;
+    }
+    .preco {
+        font-size: 1.7rem;
+    }
+    .comprar {
+        font-size: 1.7rem;
+    }
 }
